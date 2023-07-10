@@ -1,0 +1,54 @@
+name: flutter_datamaster
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  awesome_dialog: ^3.1.0
+  barcode: ^2.2.4
+  barcode_widget: ^2.0.4
+  colours: ^0.0.2
+  dio: ^5.2.0+1
+  document_file_save_plus: ^2.0.0
+  equatable: ^2.0.5
+  esc_pos_utils: ^1.1.0
+  fl_chart: ^0.62.0
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+  flutter_spinbox: ^0.13.1
+  flutter_svg: ^2.0.5
+  fluttertoast: ^8.2.2
+  google_fonts: ^4.0.4
+  http: ^0.13.6
+  image_picker: ^0.8.7+5
+  intl: ^0.17.0
+  multiselect_formfield: ^0.1.7
+  open_file: ^3.3.2
+  path_provider: ^2.0.15
+  pdf: ^3.8.4
+  printing: ^5.9.3
+  provider: ^6.0.5
+  shared_preferences: ^2.1.0
+  stacked_notification_cards: ^0.1.0-dev.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/icons/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 16
